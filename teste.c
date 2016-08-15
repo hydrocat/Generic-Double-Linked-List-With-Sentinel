@@ -93,6 +93,7 @@ Teste de Alocacao de Nodes
 		printf("%s\n", (char*) n->data );
 		n = n->next;
 	}
+	exit(1);
 	
 //Teste para removeList(List* l, int index, void* e )
 //	List *l = initializeList( createList(), sizeof(char), NULL, NULL, NULL );

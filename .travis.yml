@@ -1,0 +1,6 @@
+language: c
+script:
+  - make
+  - ./a.out
+compiler:
+  - gcc
